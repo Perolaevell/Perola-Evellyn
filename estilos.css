@@ -1,0 +1,156 @@
+
+
+a:link{
+    color:#B0228C;
+    text-decoration:none;
+}
+#center{
+    text-align: center;
+}
+
+a:visited{
+    color:#B0228C;;
+}
+a:hover{
+    color:#CE11CE;
+    text-decoration:underline overline;
+}
+
+ul{
+    font-size: 15px;
+    text-align: right;
+}
+
+li{
+    display:inline;
+    padding-right:15px;
+}
+
+body{
+	background-color:#D2A1B8;
+}
+
+h3{
+    font-family:https://www.dafont.com/pt/aloha-magazine.font;
+	color:#A53692;	 
+}
+
+h2{
+	text-shadow: 10px 5px 10px #B0228C;
+    font-family:https://www.dafont.com/pt/aloha-magazine.font;
+    text-align:center;
+  
+}
+
+footer{
+    background-color:#A53692;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    position:relative;
+    width:100%;
+    bottom:0px;
+}
+
+p{
+    font-family:https://www.dafont.com/pt/verily-serif-mono.font;
+}
+
+img{
+    text-align: center;
+}
+
+.p{
+   text-align: center;
+}
+
+
+form{
+    color:#B0228C;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; /* Previne rolagem horizontal para toda a página */
+}
+
+.carousel {
+    position: relative;
+    width: 100vw; /* Ocupa toda a largura da viewport */
+    height: 200px; /* Defina a altura desejada para o carrossel */
+    overflow: hidden;
+    background-color: #D2A1B8; /* Cor de fundo opcional para o carrossel */
+}
+
+.carousel-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100vw; /* Cada slide ocupa 100% da largura da viewport */
+    height: 100%; /* Cada slide ocupa 100% da altura do carrossel */
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 200%;
+    height: 300%; /* Ajusta a imagem para ocupar toda a altura do slide */
+    object-fit: cover; /* Ajusta a imagem para cobrir a área sem distorção */
+}
+
+.text-overlay {
+    text-align: center;
+    bottom: 60px;
+    left: 60px;
+    background: #D2A1B8;
+    color: #B0228C;
+    padding: 40px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(206, 126, 159);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+#volta{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #B0228C;
+    background-color:#d48bb0;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+#voltar:link{
+    background-color:#D2A1B8;
+}
